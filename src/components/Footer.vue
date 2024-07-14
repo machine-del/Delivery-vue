@@ -5,10 +5,10 @@
                 <router-link class="header-logo logo" to="/"><img src="../assets/images/logo.png" alt="logo"></router-link>
                 <div class="footer-nav">
                     <ul>
-                        <li><a href="goods.html">Ресторанам</a> </li>
-                        <li><a href="goods.html">Курьерам</a></li>
-                        <li><a href="goods.html">Пресс-центр</a></li>
-                        <li><a href="goods.html">Контакты</a></li>
+                        <li><router-link to="/rest">Ресторанам</router-link> </li>
+                        <li><router-link to="/rest">Курьерам</router-link></li>
+                        <li><router-link to="/rest">Пресс-центр</router-link></li>
+                        <li><router-link to="/rest">Контакты</router-link></li>
                     </ul>
                 </div>
                 <div class="footer-social">
@@ -21,10 +21,7 @@
     </footer>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
 </script>
 
 <style scoped>
